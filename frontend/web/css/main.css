@@ -1,0 +1,27 @@
+.navbar-brand .brand-custom {
+  color: #2d6cdf;
+  position: relative;
+}
+
+.navbar-brand .brand-custom::after {
+  position: absolute;
+  content: "";
+  width: 60%;
+  height: 3px;
+  bottom: -5px;
+  left: 0;
+  -webkit-filter: opacity(0.4);
+          filter: opacity(0.4);
+  background-color: red;
+}
+
+.navbar-brand .brand-custom::before {
+  position: absolute;
+  content: "";
+  width: 6px;
+  border-radius: 50%;
+  height: 6px;
+  left: 2px;
+  background-color: #faee1c;
+}
+/*# sourceMappingURL=main.css.map */
