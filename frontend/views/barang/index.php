@@ -20,9 +20,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <?= Html::button('Create Barang', ["value" => Url::to(["barang/create"]), 'class' => 'btn btn-success', "data-toggle" => "modal", "data-target" => "#w0", "id" => "modalButton"]) ?>
     </p>
 
-    <div class="halo">
-        ahlo
-    </div>
+    <?php echo Html::a('Link', ['/site/test'], ['target' => '_blank']); ?>
     <?php Modal::begin([
         'title' => 'Hello world',
 
